@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+ 
+  <link href="LagosCreoleCSS.css" rel="stylesheet">
+  <title>LAGOS CREOLE CATERING</title>
+  <style>
+    body{
+      background: linear-gradient(345deg, rgb(76, 110, 122),
+                                       rgb(63, 84, 63)80%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img  class="headerImage" src="Lagoscreole.png" alt="Logo">
+    <nav>
+      <ul>
+        <li>
+            <a href="index.html">Menu</a>
+        </li>
+        <li>
+            <a href="menu.html">Home </a>
+        </li>
+        <li>
+            <a href="catering.html">Catering</a>
+        </li>
+        <li>
+            <a href="AboutUs.html">About Us</a>
+        </li>
+        <li>
+            <button > <em>ORDER HERE</em></button>
+        </li>     
+    </ul>
+        
+    </nav>
+    <hr class="hearderRule">
+    <hr class="hearderRule2">
+</header>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+        <fieldset>
+          <legend> <strong>Enter YOUR INFORMATION</strong> </legend> <br>
+          <label for="first-name"><strong>Enter Your First Name: </strong> <input id="first-name" name="first-name" type="text" required ></label> <br>
+          <br><label for="last-name"><strong>Enter Your Last Name: </strong> <input id="last-name" name="last-name" type="text" required ></label> <br>
+         <br> <label for="email"><strong>Enter Your Email: </strong><input id="email" name="email" type="email" required ></label> <br>
+        </fieldset>
+        <fieldset class="Contact">
+          <legend>HOW WOULD YOU LIKE TO CONTACTED? (required)</legend> <br>
+          <label for="Email"><input id="Email" type="radio" name="account-type" class="inline"  ><strong>Email </strong> </label> 
+          <label for="text"><input id="text" type="radio" name="account-type" class="inline" > <strong>Text</strong> </label> <br>
+
+          <label for="Call"><input id="Call" type="radio" name="account-type" class="inline" ><strong>Call</strong> </label> 
+         <label for="All"><input id="All"   type="radio" name="account-type" class="inline" checked ><strong>All</strong> </label>
+        </fieldset>
+        <fieldset>
+          <legend><strong>INFORMATION ABOUT YOUR EVENT </strong> </legend> <br>
+           <br><label for="file"> <strong> If You Have Your Event Flyer Or a List of Items You would like,Please Attach</strong>  <input id="file" type="file" name="file" ></label> <br>
+          <br><label for="age"><strong>How Many People are coming? (Max is 100): </strong>  <input id="age" type="number" name="age" min="2" max="100" ></label> <br>
+          <br><label for="referrer">
+           <strong>How did you hear about us? </strong> 
+            <select id="referrer" name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">Instagram</option>
+              <option value="2">Friend(s)</option>
+              <option value="3">You Smelled Our Delicious Food</option>
+              <option value="4">Stephen Told You</option>
+            </select>
+           
+          </label> <br>
+          <br><label for="bio"> <strong>Add any other information you want us to know: </strong>  <br>
+            <br><textarea id="bio" name="bio" rows="3" cols="30" placeholder="*Insert Westside Gunn Lyrics*"></textarea>
+          </label>
+        </fieldset>
+        <label for="terms-and-conditions">
+          <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" > I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        </label><br>
+       <br><button class="formButton" formaction="https://www.youtube.com/watch?v=dQw4w9WgXcQ">SUBMIT  </button> 
+      </form>
+
+      <footer>
+        <a class="footerLinks">
+          COME VISIT US.... 
+          Call us...
+        (123)-456-7689
+          <p>© Copyright 2023. All Rights Reserved.</p>  
+        </a>
+
+        <div class="footerLinks">
+            <h4>Follow Us</h4>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100087972676512" target="_blank" title="Facebook">
+                        <i>Facebook</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/LaunchPad_LEH" target="_blank" title="Twitter">
+                        <i>Twitter</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/launchpad_lehman/" target="_blank" title="Instagram">
+                        <i>Instagram</i>
+                    </a>
+                </li>
+                
+            </ul>
+            </div>
+    </footer>
+</body>
+</html>
